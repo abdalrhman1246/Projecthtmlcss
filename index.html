@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styless.css">
+    <title>Document</title>
+    <!-- <script type="module" src="script.js" ></script>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.4/dist/confetti.browser.min.js"></script> -->
+</head>
+<body>
+    <header class="header">
+        <h1 class="header__title">Abdulrhman Jamal's</h1>
+        <nav class="header__nav-list">
+            <ul class="nav-list">
+                <li><a href="#" class="nav-list__link nav-list__link--active">Home</a></li>
+                <li><a href="#about" class="nav-list__link">About Me</a></li>
+                <li><a href="#portfolio" class="nav-list__link">Portfolio</a></li>
+                <li><a href="#contact" class="nav-list__link">Contact</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <main class="main">
+        <section class="about" id="about">
+            <h2 class="about__title">About Me</h2>
+            <p class="about__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo tempora debitis sunt. Ipsa, amet repudiandae</p>
+            <p class="about__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus minus voluptatum sequi sapiente aliquid nostrum</p>
+
+        </section>
+        <section class="portfolio" id="portfolio">
+            <h2 class="portfolio__title">Portfolio</h2>
+            <div class="portfolio__cards">
+                <div class="project">
+                    <img src="imgs/02.jpg" alt="imge 1" class="project__img">
+                    <h3 class="project__title">Project 1</h3>
+                    <p class="project__description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti, tenetur.</p>
+                    <button class="project__button">View Project</button>
+                </div>
+                <div class="project">
+                    <img src="imgs/03.jpg" alt="imge 2" class="project__img">
+                    <h3 class="project__title">Project 2</h3>
+                    <p class="project__description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti, tenetur.</p>
+                    <button class="project__button">View Project</button>
+                </div>
+                <div class="project">
+                    <img src="imgs/05.jpg" alt="imge 3" class="project__img">
+                    <h3 class="project__title">Project 3</h3>
+                    <p class="project__description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti, tenetur.</p>
+                    <button class="project__button">View Project</button>
+                </div>
+                <div class="project">
+                    <img src="imgs/07.jpg" alt="imge 4" class="project__img">
+                    <h3 class="project__title">Project 4</h3>
+                    <p class="project__description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti, tenetur.</p>
+                    <button class="project__button">View Project</button>
+                </div>
+                <div class="project">
+                    <img src="imgs/08.jpg" alt="imge 5" class="project__img">
+                    <h3 class="project__title">Project 5</h3>
+                    <p class="project__description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti, tenetur.</p>
+                    <button class="project__button">View Project</button>
+                </div>
+                <div class="project">
+                    <img src="imgs/01.jpg" alt="imge 6" class="project__img">
+                    <h3 class="project__title">Project 6</h3>
+                    <p class="project__description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti, tenetur.</p>
+                    <button class="project__button">View Project</button>
+                </div>
+                <div class="project">
+                    <img src="imgs/img1.jpg" alt="imge 7" class="project__img">
+                    <h3 class="project__title">Project 7</h3>
+                    <p class="project__description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti, tenetur.</p>
+                    <button class="project__button">View Project</button>
+                </div>
+            </div>
+
+        </section>
+        <section class="contact" id="contact">
+            <h2 class="contact__title">Contact</h2>
+            <form class="contact__form">
+                <label for="name" class="contact__label">Name:</label>
+                <input type="text" form="name" name="name" class="contact__input" required>
+                <br>
+                <br>
+                <label for="email" class="contact__label">Email:</label>
+                <input type="email" name="email" form="email" class="contact__input" required>
+                <br>
+                <br>
+                <label for="message" class="contact__label">Message:</label>
+                <textarea name="message" class="contact__textarea"></textarea>
+                <br>
+                <br>
+                <input type="submit" class="contact__submit" value="Send Message">
+            </form>
+        </section>
+    </main>
+    <footer class="footer">
+        <p>&copy; Abdulrhman Jamal's Portfolio</p>
+    </footer>
+</body>
+</html>
